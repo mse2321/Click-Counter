@@ -12,6 +12,7 @@
 		9C4DDEE72080504600C24544 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C4DDEE52080504600C24544 /* Main.storyboard */; };
 		9C4DDEE92080504700C24544 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C4DDEE82080504700C24544 /* Assets.xcassets */; };
 		9C4DDEEC2080504700C24544 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C4DDEEA2080504700C24544 /* LaunchScreen.storyboard */; };
+		9C4DDEF4208057D700C24544 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C4DDEF3208057D700C24544 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		9C4DDEE82080504700C24544 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9C4DDEEB2080504700C24544 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9C4DDEED2080504700C24544 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C4DDEF3208057D700C24544 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,7 +40,8 @@
 		9C4DDED52080504600C24544 = {
 			isa = PBXGroup;
 			children = (
-				9C4DDEE02080504600C24544 /* Click Counter */,
+				9C4DDEF3208057D700C24544 /* Default-568h@2x.png */,
+				9C4DDEE02080504600C24544 /* ClickCounter */,
 				9C4DDEDF2080504600C24544 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,7 +54,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9C4DDEE02080504600C24544 /* Click Counter */ = {
+		9C4DDEE02080504600C24544 /* ClickCounter */ = {
 			isa = PBXGroup;
 			children = (
 				9C4DDEE12080504600C24544 /* AppDelegate.swift */,
@@ -61,7 +64,7 @@
 				9C4DDEEA2080504700C24544 /* LaunchScreen.storyboard */,
 				9C4DDEED2080504700C24544 /* Info.plist */,
 			);
-			path = "Click Counter";
+			path = ClickCounter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -99,7 +102,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 9C4DDED92080504600C24544 /* Build configuration list for PBXProject "Click Counter" */;
+			buildConfigurationList = 9C4DDED92080504600C24544 /* Build configuration list for PBXProject "ClickCounter" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -123,6 +126,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9C4DDEEC2080504700C24544 /* LaunchScreen.storyboard in Resources */,
+				9C4DDEF4208057D700C24544 /* Default-568h@2x.png in Resources */,
 				9C4DDEE92080504700C24544 /* Assets.xcassets in Resources */,
 				9C4DDEE72080504600C24544 /* Main.storyboard in Resources */,
 			);
@@ -315,7 +319,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9C4DDED92080504600C24544 /* Build configuration list for PBXProject "Click Counter" */ = {
+		9C4DDED92080504600C24544 /* Build configuration list for PBXProject "ClickCounter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9C4DDEEE2080504700C24544 /* Debug */,
